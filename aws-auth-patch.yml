@@ -9,6 +9,10 @@ data:
       rolearn: arn:aws:iam::644752792305:role/UdacityFlaskDeployCBKubectlRole
       username: build      
     - groups:
+      - system:masters
+      rolearn: arn:aws:iam::494480975465:role/UdacityFlaskDeployCBKubectlRole
+      username: build   
+    - groups:
       - system:bootstrappers
       - system:nodes
       rolearn: arn:aws:iam::644752792305:role/eksctl-simple-jwt-api-nodegroup-n-NodeInstanceRole-17C402QC9VF6L
